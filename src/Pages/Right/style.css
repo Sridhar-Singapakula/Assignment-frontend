@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;600&family=Poppins:wght@300;500&family=Special+Elite&display=swap');
+.quantity-section {
+    border: 1px solid darkgreen;
+    padding: 30px;
+    width:100%;
+    border-radius:30px;
+    background-color:#FFF4EC;
+  }
+  
+  .options {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:10px;
+  }
+  
+  .option {
+    border-radius: 10px;
+    text-align: center;
+    width:100px;
+    border: 1px solid darkgreen;
+  }
+  p{
+    color:grey;
+    font-size:12px;
+    font-family: "Special Elite";
+  }
+
+
+  .option.selected {
+    background-color: rgb(127, 239, 127);
+    color:white;
+
+  }
+  .radio-buttons {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+  }
+  .radio_{
+    align-items: center;
+    width:20px;
+    font-family: "Special Elite";
+    height:20px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(218, 230, 48);
+    color: white;
+    cursor: pointer;
+    color:black;
+    font-family: "Special Elite";
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: rgba(73, 53, 65, 0.4) 5px 5px, rgba(83, 68, 77, 0.3) 10px 10px, rgba(189, 185, 187, 0.2) 15px 15px, rgba(81, 67, 76, 0.1) 20px 20px, rgba(58, 47, 54, 0.05) 25px 25px;
+  }
+  .right_{
+    font-size: 46px;
+    letter-spacing: -1.44px;
+  }
+  button:hover{
+    box-shadow: none;
+    transition: 0.3s;
+  }
+  .under_{
+    text-decoration: underline;
+    font-size: 400;
+  }
+  .number{
+    font-size: 16px;
+    color:rgb(75, 66, 66);
+  }
+  .head_{
+    font-size: 20px;
+    font-family: "Special Elite";
+  }
